@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang='en'  dir="ltr">
+   <head>
+      <title>home adoptadog mockup</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <script src="https://kit.fontawesome.com/4c496fc4fb.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+   </head>
+   <body>
+      <a href="#maincontent" class="sr-only" >Skip to main content</a>
+      <header>
+         <div class=checkout>
+            <i class="fas fa-shopping-cart"></i>
+            <div id='total'></div>
+            <br>
+            <a href="checkout.html" role="button">Checkout</a>
+         </div>
+         <img src="images/adoptadog-logo.svg" alt='Adopt A Dog Logo' >
+         <h1>Seattle’s premiere dog adoption agency</h1>
+         <nav>
+            <a href="index.html">Home</a> /
+            <a href="dogs.html">Dogs</a> /
+            <a href="blog.html">Blog</a>
+         </nav>
+      </header>
+      <main id="maincontent">
+         <div class="row">
+            <div class="col-sm-8">
+               <div class="col-sm-12">
+                  <img src="images/home-intro.jpg" alt='Boy hugging smiling golden retriever outdoors' >
+                  <h2>Adopt A Dog</h2>
+                  <p>Iduciendisite quo magnatem iuntum quid quaest ea am, tenderumet adis dolenem quidustrum fuga. Faceaquae estioria derum recuptatur, cum volore, undipsa doloreium hillupta aut es ut alitatuscit ommossum haritatur arum qui officae videbiti corporeium faccull oribus es quidignis ipietus explam sus
+                     am aut amet ant fugiatum, utem non reptat ad magnienecto volorent fugia nonsedi gendand itatquos as magnimpor aut molor autatia ad est officimus accae et omnia cus, od qui ate
+                  </p>
+               </div>
+               <br>
+               <div class="row infoparent">
+                  <div class="col-md-6 col-sm-12 col-lg-4">
+                     <div class="col-sm-12 info">
+                        <img onclick="about('Murphy', 'Some Breed', '123.45')" src="images/murphy-card.jpg" alt='A dog named Murphy' >
+                        <h3> Murphy </h3>
+                        <br>
+                        <h4> Cost to Adopt:</h4>
+                        <p> $123.45 </p>
+                        <p> Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae </p>
+                        <button id='murphy' onclick="disableButton('murphy')">Adopt</button> <!--adopt('murphy'); -->
+                     </div>
+                  </div>
+                  <div class="col-md-6 col-sm-12 col-lg-4">
+                     <div class="col-sm-12 info">
+                        <img onclick="about('Poppy', 'Some Breed', '123.45')" src="images/poppy-card.jpg" alt='A dog named Poppy' >
+                        <h3> Poppy </h3>
+                        <br>
+                        <h4> Cost to Adopt:</h4>
+                        <p> $123.45 </p>
+                        <p> Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae </p>
+                        <button id='poppy' onclick="disableButton('poppy')">Adopt</button> <!--adopt('poppy'); -->
+                     </div>
+                  </div>
+                  <div class="col-md-6 col-sm-12 col-lg-4">
+                     <div class="col-sm-12 info">
+                        <img onclick="about('Jack', 'Beagle', '123.45')" src="images/jack-card.jpg" alt='Jack the beagle' >
+                        <h3> Jack </h3>
+                        <br>
+                        <h4> Cost to Adopt:</h4>
+                        <p> $123.45 </p>
+                        <p> Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae </p>
+                        <button id='jack' onclick=" disableButton('jack')">Adopt</button> <!--adopt('jack');-->
+                     </div>
+                  </div>
+                  <div class="col-md-6 col-sm-12 col-lg-4">
+                     <div class="col-sm-12 info">
+                        <img onclick="about('Duffy', 'Some Breed', '123.45')" src="images/duffy-card.jpg" alt='A dog named Duffy' >
+                        <h3> Duffy </h3>
+                        <br>
+                        <h4> Cost to Adopt:</h4>
+                        <p>$123.45 </p>
+                        <p> Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae </p>
+                        <button id='duffy' onclick=" disableButton('duffy')">Adopt</button> <!--adopt('duffy');-->
+                     </div>
+                  </div>
+                  <div class="col-md-6 col-sm-12 col-lg-4">
+                     <div class="col-sm-12 info">
+                        <img onclick="about('Lucas', 'Some Breed', '123.45')" src="images/lucas-card.jpg" alt='A dog named Lucas' >
+                        <h3> Lucas </h3>
+                        <br>
+                        <h4> Cost to Adopt:</h4>
+                        <p> $123.45 </p>
+                        <p> Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae </p>
+                        <button id='lucas' onclick="disableButton('lucas')">Adopt</button> <!--adopt('lucas'); -->
+                     </div>
+                  </div>
+                  <div class="col-md-6 col-sm-12 col-lg-4">
+                     <div class="col-sm-12 info">
+                        <img onclick="about('Jake', 'Yellow Lab', '123.45')" src="images/jake-card.jpg" alt='Jake the yellow lab' >
+                        <h3> Jake </h3>
+                        <br>
+                        <h4> Cost to Adopt:</h4>
+                        <p> $123.45 </p>
+                        <p> Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae </p>
+                        <button id='jake' onclick="disableButton('jake')">Adopt</button> <!--adopt('jake'); -->
+                     </div>
+                  </div>
+               </div>
+               <br>
+               <div class="row">
+                  <div class="col-md-4 col-sm-offset-4">
+                     <nav>
+                        <a href="dogs.html">See More Dogs</a>
+                     </nav>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-3 col-sm-offset-1 preview">
+               <div class='row'>
+                  <h2>From Our Blog</h2>
+                  <div class="row">
+                     <div class="col-sm-12">
+                        <img src="images/blog-1.jpg" alt='Girl sitting with arm around dog in the canyons' >
+                        <h3>Traveling With Your Dog</h3>
+                        <p>Iciustiam, et ad quiaes cum que excea sinciendi qui offic temquas doluptios dolupta tiandebis nem ut.
+                        </p>
+                        <a href="blog.html#travel">read more >></a>
+                     </div>
+                  </div>
+                  <br>
+                  <div class="row">
+                     <div class="col-sm-12">
+                        <img src="images/blog-2.jpg" alt='Multiple Dogs on a leash going for a walk' >
+                        <h3>How To Walk Multiple Dogs</h3>
+                        <p>Iciustiam, et ad quiaes cum que excea sinciendi qui offic temquas doluptios dolupta tiandebis nem ut.
+                        </p>
+                        <a href="blog.html#walk">read more >></a>
+                     </div>
+                  </div>
+                  <br>
+                  <div class="row">
+                     <div class="col-sm-12">
+                        <img src="images/blog-3.jpg" alt='Girl holding ball during sunset while dog patiently waits for her to throw it' >
+                        <h3>Teach Your Dog To Fetch!</h3>
+                        <p>Iciustiam, et ad quiaes cum que excea sinciendi qui offic temquas doluptios dolupta tiandebis nem ut.
+                        </p>
+                        <a href="blog.html#fetch">read more >></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+      <a href="#maincontent" class="sr-only">Return to top of main content</a>
+      <footer>
+         <img src="images/adoptadog-logo.svg" alt='Adopt A Dog Logo' >
+         <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex esseque invenienihil imaximu scideru ptistiusam consequunt</p>
+         <nav>
+            <a href="index.html">Home</a> /
+            <a href="#">Dogs</a> /
+            <a href="#">Contact</a>
+         </nav>
+         <p>© 2018 Adoptadog, LLC | Seattle, WA</p>
+      </footer>
+      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+      <script src="scripts/about.js"></script>
+      <script src="scripts/adopt.js"></script>
+   </body>
+</html>
