@@ -87,14 +87,15 @@ header {
 
 header nav {
 	font-weight: bolder;
-	font-family: "Arial Black", "Arial Bold", "Ariel";
+	font-family: 'Open Sans', "Ariel";
 	text-align: center;
 	color: rgb(25, 60, 93);
 	background-color: rgb(236, 236, 236);
 }
 
 nav a {
-	font-family: serif;
+	font-family: 'Open Sans', "Ariel";
+	text-align: center;
 	color: rgb(25, 60, 93);
 	padding: 1.5rem;
 	margin: 1.5rem;
@@ -216,7 +217,7 @@ a>i {
 }
 
 h1 {
-	font-family: serif;
+	font-family: 'Barlow', sans-serif;
 	font-style: italic;
 	color: rgb(140, 180, 82);
 	margin-top: 0;
@@ -225,7 +226,7 @@ h1 {
 }
 
 h2 {
-	font-family: serif;
+	font-family: 'Barlow', sans-serif;
 	font-weight: bold;
 	font-size: x-large;
 	color: rgb(25, 60, 93);
@@ -233,7 +234,7 @@ h2 {
 }
 
 h3 {
-	font-family: serif;
+	font-family: 'Barlow', sans-serif;
 	font-weight: bold;
 	font-size: large;
 	display: block;
@@ -242,7 +243,7 @@ h3 {
 }
 
 h4 {
-	font-family: serif;
+	font-family: 'Barlow', sans-serif;
 	padding: .5em;
 	font-weight: bold;
 	font-size: medium;
@@ -251,7 +252,7 @@ h4 {
 }
 
 p {
-	font-family: sans-serif;
+	font-family: 'Barlow', sans-serif;
 	font-size: medium;
 	font-weight: lighter;
 	display: inline-block;
@@ -282,7 +283,7 @@ input[type='submit'] {
 }
 
 .radio {
-	font-family: sans-serif;
+	font-family: 'Barlow', sans-serif;
 	font-size: small;
 	font-weight: 100;
 	color: black;
@@ -301,7 +302,7 @@ input:not([type='submit']) {
 label,
 textarea {
 	font-family: inherit;
-	font-family: serif;
+	font-family: 'Barlow', sans-serif;
 	font-size: larger;
 	box-sizing: border-box;
 	width: auto;
