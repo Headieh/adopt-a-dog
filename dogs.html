@@ -1,35 +1,38 @@
 <!DOCTYPE html>
-<html lang='en'  dir="ltr">
-   <head>
-      <title>dogs adoptadog mockup</title>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-      <script src="https://kit.fontawesome.com/4c496fc4fb.js" crossorigin="anonymous"></script>
-      <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
-   </head>
-   <body>
-      <a href="#maincontent" class="sr-only" >Skip to main content</a>
-      <header>
-         <div class=checkout>
-            <i class="fas fa-shopping-cart"></i>  
-            <div id='total'></div>
-            <br>
-            <a href="checkout.html" role="button">Checkout</a>
-         </div>
-         <img src="images/adoptadog-logo.svg" alt='Adopt A Dog Logo' >
-         <h1>Seattle’s premiere dog adoption agency</h1>
-         <nav>
-            <a href="index.html">Home</a> /
-            <a href="dogs.html">Dogs</a> /
-            <a href="blog.html">Blog</a>
-         </nav>
-      </header>
-      <h2>Here are all of our Dogs!</h2>
+<html lang='en' dir="ltr">
+
+<head>
+  <title>dogs adoptadog mockup</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/4c496fc4fb.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+</head>
+
+<body>
+  <a href="#maincontent" class="sr-only">Skip to main content</a>
+  <header>
+    <div class=checkout>
+      <i class="fas fa-shopping-cart"></i>
+      <div id='total'></div>
       <br>
-      <!-- <section id="maincontent">
+      <a href="checkout.html" role="button">Checkout</a>
+    </div>
+    <img src="images/adoptadog-logo.svg" alt='Adopt A Dog Logo'>
+    <h1>Seattle’s premiere dog adoption agency</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="dogs.html">Dogs</a> |
+      <a href="blog.html">Blog</a> |
+      <a href="https://hngodwin.com">Portfolio</a>
+    </nav>
+  </header>
+  <h2>Here are all of our Dogs!</h2>
+  <br>
+  <!-- <section id="maincontent">
          <script>displayDogs(4);</script>
          <div class="row justify-content-between">
            <div class="col-md-6 col-sm-12 col-lg-3">
@@ -166,20 +169,45 @@
            </div>
          </div>
          </section> -->
-      <footer id='foot'>
-         <a href="#maincontent" class="sr-only">Return to top of main content</a>
-         <img src="images/adoptadog-logo.svg" alt='Adopt A Dog Logo' >
-         <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex esseque invenienihil imaximu scideru ptistiusam consequunt</p>
-         <nav>
-            <a href="index.html">Home</a> /
-            <a href="dogs.html">Dogs</a> /
-            <a href="#">Contact</a>
-         </nav>
-         <p>© 2018 Adoptadog, LLC | Seattle, WA</p>
-      </footer>
-      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-      <script src="scripts/dogs.js"></script>
-      <script src="scripts/about.js"></script>
-      <script src="scripts/adopt.js"></script>
-   </body>
+  <footer id='foot'>
+    <a href="#maincontent" class="sr-only">Return to top of main content</a>
+    <img src="images/adoptadog-logo.svg" alt='Adopt A Dog Logo'>
+    <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex esseque invenienihil imaximu scideru ptistiusam consequunt</p>
+    <nav>
+      <a href="index.html">Home</a> /
+      <a href="dogs.html">Dogs</a> /
+      <a data-target="#credits" data-toggle="modal" href="#myModal">Credits</a>
+
+      <div id="credits" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Credit</h4>
+            </div>
+            <div class="modal-body">
+              <p> Static images taken from this
+                <a href='https://github.com/UWFront-End-Cert/html200-adopt-a-dog'> Repo </a>
+              </p>
+              <p><a href="https://vimeo.com/280261072">Cute Stray Dog Stock Video</a> from
+                <a href="https://vimeo.com/motionarray">Motion Array</a> on
+                <a href="https://vimeo.com">Vimeo</a>
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </nav>
+    <p>© 2018 Adoptadog, LLC | Seattle, WA</p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="scripts/dogs.js"></script>
+  <script src="scripts/about.js"></script>
+  <script src="scripts/adopt.js"></script>
+</body>
+
 </html>

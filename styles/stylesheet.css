@@ -10,6 +10,40 @@ main {
 	margin-bottom: 1em;
 }
 
+video{
+	width: 100%;
+  height: auto;
+}
+
+.modal-content{
+	color:black;
+}
+.modal-body > p > a{
+	color:blue;
+}
+.modal-header, .modal-footer{
+	width:100%;
+	padding:0;
+	text-align: center;
+	margin:auto;
+}
+.modal-title{
+	height:auto;
+	text-align: center;
+	width:auto;
+	margin:auto;
+}
+.modal-header>button{
+	text-align: right;
+	display: inline;
+	width:auto;
+	padding:.25em;
+}
+.modal-footer>button{
+	width: 90%;
+	padding:.5em;
+	margin:.5em;
+}
 
 /*print needs more work*/
 
@@ -171,10 +205,14 @@ a:focus {
 	color: white;
 }
 
-.checkout-image {
-	max-width: 50%;
-	height: auto;
-	margin-top: 2em;
+aside{
+	padding-right:3em;
+	padding-left: .5em;
+}
+a>i {
+
+	margin: auto;
+	padding: .5em;
 }
 
 h1 {
