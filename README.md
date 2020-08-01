@@ -7,7 +7,8 @@ mockup for basic design. This site should helps users browse dogs that are
 available for adoption and make adopting easier for the user. It also features
 a blog with useful information for owners. It provides information about the
 dog prior to adoption so prospective owners can learn more about them before
-deciding to adopt.
+deciding to adopt. After the project was completed and submitted, I went back and
+added additional features.
 
 This project demonstrates:
 - Vanilla JavaScript/JQuery, HTML5, and CSS fundamentals
@@ -15,6 +16,11 @@ This project demonstrates:
 - Best practices and core concepts of responsive design
   (mobile-first design, fluid layouts, and media queries.)
 - Web Form Features
+- Principles of effective user experience
+- Media playback with media elements
+- Accessibility Features
+- Custom styling, including web fonts
+
 
 ### Test Results:
 
