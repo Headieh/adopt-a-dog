@@ -19,14 +19,16 @@ const all = [blog_one, blog_two, blog_three];
 for (let x = 0; x < all.length; x += 1) {
 	const object = all[x];
 	const blogImage = document.createElement("div");
-	blogImage.setAttribute("class", "c1");
+	//blogImage.setAttribute("class", "c1");
+	blogImage.setAttribute("class", "c1 col-xs-12 col-sm-4");
 	blogImage.setAttribute("id", object[3]);
 	const image = document.createElement("img");
 	image.setAttribute("src", object[0]);
 	image.setAttribute("alt", object[1]);
 	blogImage.appendChild(image);
 	const blogContent = document.createElement("div");
-	blogContent.setAttribute("class", "c2");
+	blogContent.setAttribute("class", "col-xs-12 col-sm-8");
+	//blogContent.setAttribute("class", "c2");
 	const blogTitle = document.createElement("h3");
 	blogTitle.textContent = object[2];
 	const blogParagraph = document.createElement("p");
