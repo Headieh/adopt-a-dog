@@ -94,6 +94,7 @@ nav a {
 	display: inline;
 }
 
+
 footer {
 	height: auto;
 	width: 100%;
@@ -124,24 +125,29 @@ footer nav a {
 
 /*Small Devices, Tablets */
 @media only screen and (max-width: 991px) {
-	header nav {
+	header nav a{
 		font-size: 1rem;
+		display:block;
 	}
+	.mobhide {
+    display: none;
+  }
 }
-
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
-	header nav {
+	header nav a{
 		font-size: 1.5rem;
+		display:inline;
 	}
 }
 
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
-	header nav {
+	header nav a{
 		font-size: 2rem;
+		display:inline;
 	}
 }
 
