@@ -16,22 +16,3 @@ function submitEvent(event) {
 }
 
 $('form').on('submit', submitEvent);
-
-/*const form = $("form");
-const submit = $("#name");*/
-
-/*function submitEvent(event) {
-	event.preventDefault();
-	info.push(document.getElementById('name').value);
-	info.push(document.getElementById('email').value);
-	info.push(document.getElementById('address').value);
-	info.push(document.getElementById('city').value);
-	info.push(document.getElementById('state').value);
-	info.push(document.getElementById('zip').value);
-	info.push(document.querySelector('input[name="New"]:checked').value);
-	info.push(document.getElementById('location').value);
-	console.log(info);
-	alert("Thank you. The form information has been received");
-}
-
-form.addEventListener("submit", submitEvent);*/

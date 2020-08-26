@@ -1,14 +1,17 @@
 # Adopt-A-Dog
 
-This site was the milestone project for the 2rd class (JavaScript & Responsive Design)
+This site was the milestone project for the 2nd class (JavaScript & Responsive Design)
 of the Front-End certificate program from the University of Washington.
 The purpose of this project was to utilize skills learned in this class, using a
-mockup for basic design. This site should helps users browse dogs that are
+mockup for basic design [see mockup](https://github.com/Headieh/html200-adopt-a-dog/blob/master/comps/)
+After the project was completed and submitted, I went back and
+added additional features and minor design changes.
+
+This site should helps users browse dogs that are
 available for adoption and make adopting easier for the user. It also features
 a blog with useful information for owners. It provides information about the
 dog prior to adoption so prospective owners can learn more about them before
-deciding to adopt. After the project was completed and submitted, I went back and
-added additional features.
+deciding to adopt.
 
 This project demonstrates:
 - Vanilla JavaScript/JQuery, HTML5, and CSS fundamentals

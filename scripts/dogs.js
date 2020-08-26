@@ -21,15 +21,10 @@ const dogs = document.createElement("section");
 dogs.setAttribute("id", "maincontent");
 
 function displayDogs(displayNumber) {
-
-	// WHY DOESNT THIS WORK!
-	/* 
-	if (displayNumber>all.length) {
-	    let displayNumber = all.length;
-	    console.log(displayNumber)
-	}*/
-
-	for (let x = 0; x < displayNumber; x += 1) {
+	if (displayNumber==='all') {
+	    displayNumber = all.length;
+	}
+	for (let x = 0; x <= displayNumber-1; x += 1) {
 		const object = all[x];
 		const dog = document.createElement("article");
 		dog.setAttribute("class", "dog");
@@ -50,7 +45,7 @@ function displayDogs(displayNumber) {
 		dogParagraph.textContent = "Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae"
 		const dogAdopt = document.createElement("button");
 		dogAdopt.setAttribute("id", object[0].toLowerCase());
-		dogAdopt.setAttribute("onclick", `disableButton('${object[0].toLowerCase()}') `); /*adopt('${object[0].toLowerCase()}'); */
+		dogAdopt.setAttribute("onclick", `disableButton('${object[0].toLowerCase()}') `);
 		dogAdopt.textContent = 'Adopt';
 
 		dogContent.appendChild(imagedog);
@@ -65,9 +60,8 @@ function displayDogs(displayNumber) {
 	document.body.insertBefore(dogs, foot);
 }
 
-//TEST IF STATEMENT
-//displayDogs(15);
-displayDogs(12);
+displayDogs('all');
+//displayDogs(6);
 
-//Maybe one day I can make this displayNumber=6 and
-//display it on the index.html page
+//future development: displayNumber=6 for displaying it on the index.html page
+//displayNumber='all' for displaying it on dogs.html

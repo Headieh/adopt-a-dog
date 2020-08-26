@@ -1,13 +1,14 @@
 main {
-	padding: 1em 2em 1em 2em;
-	/* top, right, bottom, left */
+	padding: 1rem 2rem;
+	/*padding: 1em 2em 1em 2em;
+	 top, right, bottom, left */
 }
 
 .info {
 	border: 1.5px solid rgb(220, 220, 220);
 	padding: 0;
 	margin-left: 0;
-	margin-bottom: 1em;
+	margin-bottom: 1rem;
 }
 
 video{
@@ -37,12 +38,12 @@ video{
 	text-align: right;
 	display: inline;
 	width:auto;
-	padding:.25em;
+	padding:.25rem;
 }
 .modal-footer>button{
 	width: 90%;
-	padding:.5em;
-	margin:.5em;
+	padding:.5rem;
+	margin:.5rem;
 }
 
 /*print needs more work*/
@@ -68,15 +69,6 @@ video{
 		display: none;
 	}
 }
-
-
-/* media queries for flexbox per assignment 6 commented out - boodstrap used instead*/
-
-
-/*.infoparent {
-	display: flex;
-	flex-flow: row wrap;
-}*/
 
 header {
 	background-image: url("../images/header-image.jpg"), linear-gradient(to left, grey, rgb(25, 60, 93));
@@ -131,50 +123,44 @@ footer nav a {
 
 
 /*Small Devices, Tablets */
-
 @media only screen and (max-width: 991px) {
-	/*.colsm12 {width: 100%;}*/
 	header nav {
-		font-size: 1em;
+		font-size: 1rem;
 	}
 }
 
 
 /* Medium Devices, Desktops */
-
 @media only screen and (min-width: 992px) {
-	/*.colmd6 {width: 49.9%;}*/
 	header nav {
-		font-size: 1.5em;
+		font-size: 1.5rem;
 	}
 }
 
 
 /* Large Devices, Wide Screens */
-
 @media only screen and (min-width: 1200px) {
-	/*.collg4 {width: 33%;}*/
 	header nav {
-		font-size: 2em;
+		font-size: 2rem;
 	}
 }
 
 .col-sm-offset-4 nav {
 	text-align: center;
-	padding: 1em;
+	padding: 1rem;
 	color: rgb(25, 60, 93);
 	margin: 0;
 	background-color: rgb(220, 220, 220);
 }
 
 header img {
-	padding-top: 1em;
-	padding-left: 4em;
+	padding-top: 1rem;
+	padding-left: 4rem;
 	max-width: 50%;
 }
 
 footer img {
-	padding-top: 5em;
+	padding-top: 5rem;
 	max-width: 50%;
 }
 
@@ -193,27 +179,25 @@ a {
 
 a:hover,
 a:focus {
-	/*padding: 1rem;
-	margin: 1rem;*/
 	text-decoration: underline
 }
 
 .checkout {
-	padding-top: 2em;
-	padding-right: 4em;
+	padding-top: 2rem;
+	padding-right: 4rem;
 	float: right;
 	text-align: right;
 	color: white;
 }
 
 aside{
-	padding-right:3em;
-	padding-left: .5em;
+	padding-right:3rem;
+	padding-left: .5rem;
 }
-a>i {
 
+a>i {
 	margin: auto;
-	padding: .5em;
+	padding: .5rem;
 }
 
 h1 {
@@ -221,8 +205,8 @@ h1 {
 	font-style: italic;
 	color: rgb(140, 180, 82);
 	margin-top: 0;
-	margin-left: 1.5em;
-	padding-bottom: 1em;
+	margin-left: 1.5rem;
+	padding-bottom: 1rem;
 }
 
 h2 {
@@ -230,7 +214,7 @@ h2 {
 	font-weight: bold;
 	font-size: x-large;
 	color: rgb(25, 60, 93);
-	padding: .25em;
+	padding: .25rem;
 }
 
 h3 {
@@ -239,12 +223,12 @@ h3 {
 	font-size: large;
 	display: block;
 	color: rgb(25, 60, 93);
-	padding: .5em;
+	padding: .5rem;
 }
 
 h4 {
 	font-family: 'Barlow', sans-serif;
-	padding: .5em;
+	padding: .5rem;
 	font-weight: bold;
 	font-size: medium;
 	display: inline;
@@ -256,7 +240,7 @@ p {
 	font-size: medium;
 	font-weight: lighter;
 	display: inline-block;
-	padding: .5em;
+	padding: .5rem;
 }
 
 button {
@@ -266,7 +250,7 @@ button {
 	display: block;
 	text-align: center;
 	color: white;
-	margin: 0 auto .5em;
+	margin: 0 auto .5rem;
 	width: 90%;
 }
 
@@ -275,11 +259,11 @@ input[type='submit'] {
 	background-color: rgb(140, 180, 82);
 	border-style: none;
 	font-weight: bold;
-	width: 10em;
+	width: 10rem;
 	display: block;
 	text-align: center;
 	color: white;
-	margin: 0 auto .5em;
+	margin: 0 auto .5rem;
 }
 
 .radio {
@@ -288,13 +272,13 @@ input[type='submit'] {
 	font-weight: 100;
 	color: black;
 	display: inline-block;
-	padding: .5em;
+	padding: .5rem;
 }
 
 input:not([type='submit']) {
 	font-family: inherit;
 	box-sizing: border-box;
-	margin-bottom: 1em;
+	margin-bottom: 1rem;
 	border-radius: 0px;
 	color: rgb(25, 60, 93);
 }
@@ -306,7 +290,7 @@ textarea {
 	font-size: larger;
 	box-sizing: border-box;
 	width: auto;
-	margin: 0em;
+	margin: 0;
 	border-radius: 0px;
 	color: rgb(25, 60, 93);
 }
@@ -331,12 +315,12 @@ textarea {
 .c1,
 .dog {
 	width: 30%;
-	min-width: 20em;
+	min-width: 20rem;
 }
 
 .c1 img {
 	width: 80%;
-	padding-bottom: 1em;
+	padding-bottom: 1rem;
 }
 
 .c2 {
